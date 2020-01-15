@@ -4,3 +4,6 @@ node_modules
 #build
 /lib
 /docs
+
+# Coverage directory used by tools like istanbul
+coverage
