@@ -1,6 +1,6 @@
 {
   "name": "@juse-ui/juse",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "UI component library. Just use.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
     "Design System",
     "TypeScript"
   ],
-  "author": "Joanna Erd",
+  "author": "Joanna Erd (https://github.com/joannaerd)",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -24,13 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joannaerd/juse.git"
+    "url": "git+https://github.com/juse-ui/juse.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joannaerd/juse/issues"
+    "url": "https://github.com/juse-ui/juse/issues"
   },
-  "homepage": "https://github.com/joannaerd/juse#readme",
+  "homepage": "https://github.com/juse-ui/juse#readme",
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
