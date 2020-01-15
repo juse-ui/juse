@@ -4,5 +4,6 @@
   },
   "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
   "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
-  "setupFilesAfterEnv": ["<rootDir>/src/setupTests.ts"]
+  "setupFilesAfterEnv": ["<rootDir>/src/setupTests.ts"],
+  "collectCoverageFrom": ["src/components/**/**.{js,ts,tsx}","!src/**/**stories.{js,ts,tsx}"]
 }
