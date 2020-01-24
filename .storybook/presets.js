@@ -9,7 +9,7 @@ module.exports = [
       tsDocgenLoaderOptions: {
         tsconfigPath: path.resolve(__dirname, '../tsconfig.json'),
       },
-      include: [path.resolve(__dirname, '../src/components')],
+      include: [path.resolve(__dirname, '../src')],
     },
   },
 ];
